@@ -1,0 +1,263 @@
+[
+  {
+    "id": "cement-50kg",
+    "name": "Portland Cement (50kg)",
+    "category": "building",
+    "description": "Bamburi & Simba brands available. Ideal for foundations, slabs, and masonry.",
+    "unit": "bag",
+    "price": "",
+    "bulky": true,
+    "icon": "🧱",
+    "images": ["images/products/cement-50kg.jpg"]
+  },
+  {
+    "id": "steel-bars",
+    "name": "Steel Bars / Rebar (Y8–Y16)",
+    "category": "building",
+    "description": "High tensile steel bars for reinforced concrete. Available in 6m lengths.",
+    "unit": "piece",
+    "price": "",
+    "bulky": true,
+    "icon": "⬛",
+    "images": []
+  },
+  {
+    "id": "sand",
+    "name": "Sand (River & Quarry)",
+    "category": "building",
+    "description": "Clean washed river sand and quarry dust for plastering and concrete works.",
+    "unit": "load",
+    "price": "",
+    "bulky": true,
+    "icon": "🟫",
+    "images": []
+  },
+  {
+    "id": "ballast",
+    "name": "Ballast / Hardcore",
+    "category": "building",
+    "description": "Crushed stone aggregates for foundations and concrete mixing.",
+    "unit": "load",
+    "price": "",
+    "bulky": true,
+    "icon": "🪨",
+    "images": []
+  },
+  {
+    "id": "hollow-blocks",
+    "name": "Hollow Blocks (6\" & 9\")",
+    "category": "building",
+    "description": "Machine-pressed concrete hollow blocks for load-bearing and partition walls.",
+    "unit": "piece",
+    "price": "",
+    "bulky": true,
+    "icon": "🧱",
+    "images": ["images/products/hollow-blocks.jpg"]
+  },
+  {
+    "id": "structural-timber",
+    "name": "Timber – 2×2 / 2×3 / 2×4",
+    "category": "timber",
+    "description": "Treated and untreated structural timber for roofing, formwork, and carpentry.",
+    "unit": "piece",
+    "price": "",
+    "bulky": true,
+    "icon": "🪵",
+    "images": []
+  },
+  {
+    "id": "plywood",
+    "name": "Plywood Sheets (6mm–18mm)",
+    "category": "timber",
+    "description": "Marine and ordinary plywood for shuttering, furniture, and ceiling.",
+    "unit": "sheet",
+    "price": "",
+    "bulky": true,
+    "icon": "🪵",
+    "images": ["images/products/plywood-sheets.jpg"]
+  },
+  {
+    "id": "chipboard-mdf",
+    "name": "Chipboard / MDF Boards",
+    "category": "timber",
+    "description": "For kitchen cabinets, wardrobes, and interior joinery. Various thicknesses.",
+    "unit": "sheet",
+    "price": "",
+    "bulky": false,
+    "icon": "🪵",
+    "images": ["images/products/chipboard-mdf.jpg"]
+  },
+  {
+    "id": "iron-sheets",
+    "name": "Iron Sheets (Gauge 28–32)",
+    "category": "roofing",
+    "description": "Mabati / corrugated iron sheets in various colours. 2m, 3m, and 4m lengths.",
+    "unit": "sheet",
+    "price": "",
+    "bulky": true,
+    "icon": "🏠",
+    "images": []
+  },
+  {
+    "id": "roofing-trusses",
+    "name": "Roofing Trusses (Steel)",
+    "category": "roofing",
+    "description": "Pre-fabricated steel roof trusses. Custom spans available on order.",
+    "unit": "truss",
+    "price": "",
+    "bulky": true,
+    "icon": "🔩",
+    "images": []
+  },
+  {
+    "id": "roofing-nails",
+    "name": "Roofing Nails & Screws",
+    "category": "roofing",
+    "description": "Umbrella-head roofing nails and self-drilling tek screws. Per kg or per box.",
+    "unit": "kg",
+    "price": "",
+    "bulky": false,
+    "icon": "🏠",
+    "images": []
+  },
+  {
+    "id": "upvc-pipes",
+    "name": "uPVC Pipes (½\"–4\")",
+    "category": "plumbing",
+    "description": "Pressure and drainage pipes. Available in 3m and 6m lengths with fittings.",
+    "unit": "length",
+    "price": "",
+    "bulky": false,
+    "icon": "🚰",
+    "images": ["images/products/upvc-pipes.jpg"]
+  },
+  {
+    "id": "sanitary-ware",
+    "name": "Sanitary Ware",
+    "category": "plumbing",
+    "description": "Toilets, sinks, bath tubs, cisterns and bathroom fittings from top brands.",
+    "unit": "set",
+    "price": "",
+    "bulky": false,
+    "icon": "🚽",
+    "images": [
+      "images/products/sanitary-ware-1.jpg",
+      "images/products/sanitary-ware-2.jpg",
+      "images/products/sanitary-ware-3.jpg",
+      "images/products/sanitary-ware-4.jpg"
+    ]
+  },
+  {
+    "id": "valves",
+    "name": "Ball Valves & Gate Valves",
+    "category": "plumbing",
+    "description": "Brass and PVC water control valves. All standard thread sizes in stock.",
+    "unit": "piece",
+    "price": "",
+    "bulky": false,
+    "icon": "🔧",
+    "images": [
+      "images/products/valves-1.jpg",
+      "images/products/valves-2.jpg"
+    ]
+  },
+  {
+    "id": "electrical-cable",
+    "name": "Electrical Cable (1.5mm–10mm)",
+    "category": "electrical",
+    "description": "Single core and twin-earth cable. Sold per metre or per roll. KEBS approved.",
+    "unit": "metre",
+    "price": "",
+    "bulky": false,
+    "icon": "⚡",
+    "images": []
+  },
+  {
+    "id": "distribution-boards",
+    "name": "Distribution Boards (MCBs)",
+    "category": "electrical",
+    "description": "Consumer units, MCBs, RCDs, and isolators. Schneider and Legrand brands.",
+    "unit": "unit",
+    "price": "",
+    "bulky": false,
+    "icon": "💡",
+    "images": []
+  },
+  {
+    "id": "sockets-switches",
+    "name": "Sockets & Switches",
+    "category": "electrical",
+    "description": "MK, Legrand, and Crabtree switches and socket outlets. Single and twin.",
+    "unit": "piece",
+    "price": "",
+    "bulky": false,
+    "icon": "🔌",
+    "images": []
+  },
+  {
+    "id": "paints-20l",
+    "name": "Nippon / Crown Paints (20L)",
+    "category": "paint",
+    "description": "Interior and exterior emulsion, gloss, and textured paints. All colours.",
+    "unit": "tin",
+    "price": "",
+    "bulky": true,
+    "icon": "🎨",
+    "images": ["images/products/paints-20l.jpg"]
+  },
+  {
+    "id": "primer-undercoat",
+    "name": "Primer & Undercoat (4L / 20L)",
+    "category": "paint",
+    "description": "Wall primer, metal primer, and oil-based undercoat for interior and exterior use.",
+    "unit": "tin",
+    "price": "",
+    "bulky": false,
+    "icon": "🎨",
+    "images": ["images/products/primer-undercoat.jpg"]
+  },
+  {
+    "id": "textured-masonry-paint",
+    "name": "Textured / Masonry Paint",
+    "category": "paint",
+    "description": "Heavy-duty exterior masonry and textured finish paints. Weather resistant.",
+    "unit": "tin",
+    "price": "",
+    "bulky": false,
+    "icon": "🎨",
+    "images": ["images/products/textured-masonry-paint.jpg"]
+  },
+  {
+    "id": "hand-tools",
+    "name": "Hand Tools (Hammers, Chisels, Saws)",
+    "category": "tools",
+    "description": "Complete range of hand tools for masonry, carpentry, and general construction.",
+    "unit": "piece",
+    "price": "",
+    "bulky": false,
+    "icon": "🔨",
+    "images": ["images/products/hand-tools.jpg"]
+  },
+  {
+    "id": "power-tools",
+    "name": "Power Tools (Drills, Angle Grinders)",
+    "category": "tools",
+    "description": "Bosch, Makita, and Ingco branded power tools for professional use.",
+    "unit": "piece",
+    "price": "",
+    "bulky": false,
+    "icon": "🛠️",
+    "images": ["images/products/power-tools.jpg"]
+  },
+  {
+    "id": "safety-equipment",
+    "name": "Safety Equipment",
+    "category": "tools",
+    "description": "Hard hats, safety boots, gloves, reflective vests, and protective goggles.",
+    "unit": "set",
+    "price": "",
+    "bulky": false,
+    "icon": "🪖",
+    "images": []
+  }
+]

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KAMULU IMPORTS LTD (MONROSS BUILDING) – King'oris, Nairobi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <span>📍 King'oris, Eastern Bypass, Nairobi – Kamulu Area</span>
+  <span>
+    <a href="tel:+254720814723">📞 +254 720 814 723</a>
+    &nbsp;|&nbsp;
+    Mon–Sat: 7:00 AM – 6:00 PM
+  </span>
+</div>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="nav-inner">
+    <div class="logo">
+      <div class="logo-main">KAMULU <span>IMPORTS</span></div>
+      <div class="logo-sub">Ltd (Monross Building) · Hardware &amp; Timber · King'oris</div>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#products">Products</a></li>
+      <li><a href="#delivery">Delivery</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="paint-drip"></div>
+  <div class="hero-inner">
+    <div>
+      <p class="hero-eyebrow">King'oris · Eastern Bypass · Nairobi</p>
+      <h1>Your <span class="accent">Trusted</span><br/>Hardware<br/>Partner</h1>
+      <p class="hero-desc">
+        Quality construction materials, timber, and hardware supplies. Proudly serving contractors and homeowners across the Nairobi East region.
+      </p>
+      <div class="hero-btns">
+        <a href="#products" class="btn-primary">Browse Products</a>
+        <a href="#delivery" class="btn-outline">Delivery Areas</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-card">
+        <div class="num">500+</div>
+        <div class="label">Products in stock</div>
+        <span class="green-chip">Always restocked</span>
+      </div>
+      <div class="stat-card">
+        <div class="num">Nairobi East</div>
+        <div class="label">Delivery coverage area</div>
+        <span class="green-chip">Bulky items only</span>
+      </div>
+      <div class="stat-card">
+        <div class="num">Mon – Sat</div>
+        <div class="label">Open 7 AM to 6 PM</div>
+        <span class="green-chip">Walk-ins welcome</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products">
+  <div class="section-inner">
+    <p class="section-eyebrow">Our Inventory</p>
+    <h2 class="section-title">Hardware Products</h2>
+    <p class="section-sub">Browse our wide selection. Items marked <strong>🚚 Bulky</strong> are eligible for our delivery service. Call or visit us for current pricing and availability.</p>
+
+    <div class="category-tabs">
+      <button class="tab-btn active" onclick="filterProducts('all', this)">All Items</button>
+      <button class="tab-btn" onclick="filterProducts('building', this)">Building Materials</button>
+      <button class="tab-btn" onclick="filterProducts('timber', this)">Timber &amp; Wood</button>
+      <button class="tab-btn" onclick="filterProducts('plumbing', this)">Plumbing</button>
+      <button class="tab-btn" onclick="filterProducts('electrical', this)">Electrical</button>
+      <button class="tab-btn" onclick="filterProducts('paint', this)">Paints</button>
+      <button class="tab-btn" onclick="filterProducts('tools', this)">Tools</button>
+      <button class="tab-btn" onclick="filterProducts('roofing', this)">Roofing</button>
+    </div>
+
+    <!-- Product cards are generated automatically from products/products.json -->
+    <div class="products-grid" id="products-grid">
+      <p class="products-empty">Loading products…</p>
+    </div>
+  </div>
+</section>
+
+<!-- DELIVERY -->
+<section id="delivery">
+  <div class="section-inner">
+    <p class="section-eyebrow">We Bring It To You</p>
+    <h2 class="section-title">Delivery Services</h2>
+    <p class="section-sub">We offer delivery for bulky construction materials to sites across the Nairobi East region. Call or WhatsApp us to arrange a delivery.</p>
+
+    <div class="delivery-grid">
+      <div class="delivery-features">
+        <div class="delivery-feature">
+          <div class="feat-icon">🚛</div>
+          <div class="feat-text">
+            <h4>Bulky Items Only</h4>
+            <p>Delivery is available exclusively for heavy or bulky goods — cement, steel, timber, iron sheets, sand, ballast, and similar materials.</p>
+          </div>
+        </div>
+        <div class="delivery-feature">
+          <div class="feat-icon">📍</div>
+          <div class="feat-text">
+            <h4>Nairobi East Coverage</h4>
+            <p>We deliver across Kamulu, Ruai, Joska, Malaa, Utawala, Embakasi, and surrounding areas of the Eastern Bypass corridor.</p>
+          </div>
+        </div>
+        <div class="delivery-feature">
+          <div class="feat-icon">📋</div>
+          <div class="feat-text">
+            <h4>Arrange In Advance</h4>
+            <p>Call or visit us at least a day in advance to arrange your delivery. We confirm delivery date and fee before dispatch.</p>
+          </div>
+        </div>
+        <div class="delivery-feature">
+          <div class="feat-icon">💬</div>
+          <div class="feat-text">
+            <h4>WhatsApp Coordination</h4>
+            <p>Once your delivery is confirmed, we keep you updated via WhatsApp on delivery timing and status.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Delivery contact card (replaces the old online order form) -->
+      <div class="delivery-contact-card">
+        <h3>Arrange a Delivery</h3>
+        <p>To book a delivery, simply call or WhatsApp us with the items you need, your quantity, and your site location. We'll confirm availability, pricing, and delivery timing directly with you.</p>
+        <div class="hero-btns">
+          <a href="tel:+254720814723" class="btn-primary">📞 Call Us</a>
+          <a href="https://wa.me/254720814723" target="_blank" class="btn-outline">💬 WhatsApp Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-inner">
+    <p class="section-eyebrow">Who We Are</p>
+    <h2 class="section-title">About Kamulu Imports Ltd</h2>
+    <div class="about-grid">
+      <div class="about-visual"><img class="about-visual-photo" src="images/site/storage-yard.jpg" alt="Kamulu Imports Ltd (Monross Building) storage yard, King&#39;oris" /><div class="about-visual-overlay"><p><span>KAMULU IMPORTS LTD</span>Monross Building &middot; Est. King&#39;oris &middot; Nairobi</p></div></div>
+      <div class="about-text">
+        <p>
+          Kamulu Imports Ltd (Monross Building) is a full-service hardware store located in King'oris along the Eastern Bypass in Nairobi. We serve contractors, developers, and homeowners across the Nairobi East region with quality construction materials and building supplies.
+        </p>
+        <p>
+          Our stock covers everything from structural materials like cement, steel, and timber to finishing items including paints, plumbing fittings, and electrical components — making us a one-stop shop for any construction or renovation project.
+        </p>
+        <p>
+          We offer reliable delivery of bulky materials directly to your site, so you can focus on building while we handle logistics.
+        </p>
+        <div class="hours-list">
+          <h4>Opening Hours</h4>
+          <div class="hour-row"><span class="day">Monday</span><span class="time">7:00 AM – 6:00 PM</span></div>
+          <div class="hour-row"><span class="day">Tuesday</span><span class="time">7:00 AM – 6:00 PM</span></div>
+          <div class="hour-row"><span class="day">Wednesday</span><span class="time">7:00 AM – 6:00 PM</span></div>
+          <div class="hour-row"><span class="day">Thursday</span><span class="time">7:00 AM – 6:00 PM</span></div>
+          <div class="hour-row"><span class="day">Friday</span><span class="time">7:00 AM – 6:00 PM</span></div>
+          <div class="hour-row"><span class="day">Saturday</span><span class="time">7:00 AM – 6:00 PM</span></div>
+          <div class="hour-row closed"><span class="day">Sunday</span><span class="time">Closed</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-inner">
+    <p class="section-eyebrow">Reach Us</p>
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="section-sub">Walk in, call ahead, or message us on WhatsApp. We're happy to advise on quantities and materials for your project.</p>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <span class="icon">📞</span>
+        <h4>Phone</h4>
+        <p><a href="tel:+254720814723">+254 720 814 723</a></p>
+      </div>
+      <div class="contact-card">
+        <span class="icon">💬</span>
+        <h4>WhatsApp</h4>
+        <p><a href="https://wa.me/254720814723" target="_blank">Chat with us</a></p>
+      </div>
+      <div class="contact-card">
+        <span class="icon">📍</span>
+        <h4>Location</h4>
+        <p>King'oris, Eastern Bypass<br/>Kamulu, Nairobi</p>
+      </div>
+      <div class="contact-card">
+        <span class="icon">🕐</span>
+        <h4>Working Hours</h4>
+        <p>Mon–Sat: 7 AM – 6 PM<br/>Sunday: Closed</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div><strong>KAMULU IMPORTS LTD</strong> — (Monross Building) · Hardware &amp; Timber</div>
+  <p>King'oris, Eastern Bypass, Kamulu · Nairobi, Kenya · Tel: +254 720 814 723</p>
+  <p style="margin-top:12px; font-size:0.78rem; opacity:0.6;">© 2025 Kamulu Imports Ltd. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
